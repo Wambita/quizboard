@@ -1,55 +1,57 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Quizboard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link  href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/scripts.js"></script>
-    <script src="js/script.js"></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Quizboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
+  <script src="js/script.js"></script>
 </head>
+
 <body>
-    <div class="container">
-        <div class="jumbotron">
-    <h1>JavaScript Quizboard</h1>
-</div>
-<form id="quiz" name="quiz">
-    <ol>
-         <li id="Question 1">What method is used to change strings to numbers?<br>
-           <label for="quiz1"><input id="mc"  type="radio" name="choice1" value="5">A) parseInt() </label><br>
-           <label for="quiz1"><input id="mc" type="radio" name="choice1" value="0">B) toString() </label><br>
-           <label for="quiz1"><input id="mc" type="radio" name="choice1" value="0">C) toNumber()</label>
-         </li>
-           <li id="Question 2">which of the following function of an array object calls a function for each element in the array?"<br>
-           <label for="quiz2" ><input id="mc" type="radio" name="choice2" value="0">A) concat()</label><br>
-           <label for="quiz2" ><input id="mc" type="radio" name="choice2" value="0">B) every()</label><br>
-           <label for="quiz2"><input id="mc" type="radio" name="choice2" value="5">C) forEach()</label><br>
-           </li>
-           <li id="Question 3">which built in method reverses the order of the elements of an array?<br>
-           <label for="quiz3"><input id="mc" type="radio" name="choice3" value="0">A)changeOrder(order)</label><br>
-           <label for="quiz3"><input id="mc" type="radio" name="choice3" value="5">B) reverse()</label><br>
-           <label for="quiz3"><input id="mc" type="radio" name="choice3" value="0">C) sort(order)</label><br>
-           </li>
-           <li id="Question 4">among the following keywords, which one is not  a statement?<br>
-           <label for="quiz4"><input id="mc" type="radio" name="choice4" value="0">A) debugger</label><br>
-           <label for="quiz4" ><input id="mc" type="radio" name="choice4" value="5">B) use strict</label><br>
-           <label for="quiz4" ><input id="mc" type="radio" name="choice4" value="0">C) if</label><br>
-           <li id="Question 5">which built in method removes the last element from an array and returns that element?<br>
-           <label for="quiz5"><input  id="mc" type="radio" name="choice5" value="0">A) last()</label><br>
-           <label for="quiz5"><input id="mc" type="radio" name="choice5" value="0">B) get()</label><br>
-           <label for="quiz5"><input id="mc" type="radio" name="choice5" value="5">C) pop()</label><br>
-           </li>
-       </ol>
-        <button type="submit">check score</button id=#correct>
-       </form>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>JavaScript Quizboard</h1>
     </div>
+    <form id="quiz" name="quiz">
+      <ol>
+        <li id="Question 1">What method is used to change strings to numbers?<br>
+          <label for="quiz1"><input id="mc" type="radio" name="choice1" value="5">A) parseInt() </label><br>
+          <label for="quiz1"><input id="mc" type="radio" name="choice1" value="0">B) toString() </label><br>
+          <label for="quiz1"><input id="mc" type="radio" name="choice1" value="0">C) toNumber()</label>
+        </li>
+        <li id="Question 2">which of the following function of an array object calls a function for each element in the array?"<br>
+          <label for="quiz2"><input id="mc" type="radio" name="choice2" value="0">A) concat()</label><br>
+          <label for="quiz2"><input id="mc" type="radio" name="choice2" value="0">B) every()</label><br>
+          <label for="quiz2"><input id="mc" type="radio" name="choice2" value="5">C) forEach()</label><br>
+        </li>
+        <li id="Question 3">which built in method reverses the order of the elements of an array?<br>
+          <label for="quiz3"><input id="mc" type="radio" name="choice3" value="0">A)changeOrder(order)</label><br>
+          <label for="quiz3"><input id="mc" type="radio" name="choice3" value="5">B) reverse()</label><br>
+          <label for="quiz3"><input id="mc" type="radio" name="choice3" value="0">C) sort(order)</label><br>
+        </li>
+        <li id="Question 4">among the following keywords, which one is not a statement?<br>
+          <label for="quiz4"><input id="mc" type="radio" name="choice4" value="0">A) debugger</label><br>
+          <label for="quiz4"><input id="mc" type="radio" name="choice4" value="5">B) use strict</label><br>
+          <label for="quiz4"><input id="mc" type="radio" name="choice4" value="0">C) if</label><br>
+        <li id="Question 5">which built in method removes the last element from an array and returns that element?<br>
+          <label for="quiz5"><input id="mc" type="radio" name="choice5" value="0">A) last()</label><br>
+          <label for="quiz5"><input id="mc" type="radio" name="choice5" value="0">B) get()</label><br>
+          <label for="quiz5"><input id="mc" type="radio" name="choice5" value="5">C) pop()</label><br>
+        </li>
+      </ol>
+      <button type="submit">check score</button id=#correct>
+    </form>
+  </div>
     <div class="panel-footer">
-    <p id="correct"> Your Grade is: <span id=grade></span></p>
+        <p id="correct"> Your Grade is: <span id=grade></span></p>
     </div>
-    </div>
-    </div>
-        
+  </div>
+
 </body>
+
 </html>
