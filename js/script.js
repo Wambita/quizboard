@@ -1,6 +1,7 @@
-const questions = document.getElementById('quiz')
-const results = document.getElementById('result')
-const submit = document.getElementById('submit')
+var questions = document.getElementById('quiz')
+var results = document.getElementById('result')
+var submit = document.getElementById('submit')
+var pos= 0, questions, status, choices, A, B, C, answer 
 var questions=[
 {
     Question1:
@@ -50,6 +51,27 @@ var questions=[
     },
     answer: "B"
 }
+];
+function quiz(){
+var output =[];
+questions.forEach(question 
+    (currentQuestion, questionNumber) => {
+        var answers=[];
+        for(letter in currentQuestion.choices){
+            answers.push(
+                <label>
+                    <input type="checkbox" name="questions${questionNumber}" value="${letter}">
+                    ${letter} :
+                    ${currentQuestion.choices[letter]}
+                </label>
+            );
+        }
+     output.push(
+         <div class="question">
+         ${currentQuestion.questions}</div>
+         <div class="answers">${answers.join('')}
+         </div>
 
-
-]
+     )
+});
+};
