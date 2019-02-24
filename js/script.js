@@ -9,7 +9,7 @@ $(document).ready(function check() {
   
       var total = (a + b + c + d + e);
       var percent = ((total / 25) * 100);
-      $("#correct").text(" your score is:" + percent + "%");
+      $("#correct").fadeToggle(" your score is:" + percent + "%");
   
     });
   });
