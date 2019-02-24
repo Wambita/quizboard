@@ -2,11 +2,6 @@ label {
     display: block;
   }
   
-  input {
-    width: 100px;
-    margin-left: 50px;
-  }
-  
   h2 {
     clear: both;
     padding-top: 50px;
@@ -14,7 +9,7 @@ label {
   }
   
   button {
-    width: 500px;
+    width: 100px;
     margin-top: 20px;
   }
   
