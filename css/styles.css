@@ -18,4 +18,16 @@ label {
     font-size: 1.5em;
     padding: 5%;
   }
+  .test{
+    font-size:1.5em;
+    color:#F0FFFF;
+    background-color:gray;
+    padding: 0.935em 1em;
+    text-align: center;
+    text-decoration: uppercase;
+    display: inline-block;
+    margin: 0.25em 0.125em;
+    cursor: pointer;
+    border-radius:0.75em;
+  }
   
