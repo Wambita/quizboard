@@ -20,15 +20,15 @@ In order for the program to run well and to give the correct output, the code ha
 2. For the answer to be correct the value of the label has to be five.
 Below is a table to describe this:
 
-Behavior                  | Input Example|  Output Example
-------------------------  | -------------|  --------------
- Five correct answers     | 7, 7, 7      | 100%
-Four correct answers      | 7, 7, 10     | 80%
-Three correct answers     | 3, 4, 5      | 60%
-Two correct answers       | 4,3,9        | 40%
-one  correct answer       | 5,7,12       |20%
-No correct answer         |              |0%
-No value entered          |              | NaN%
+Behavior                  |  Output Example
+------------------------  | ---------------
+Five correct answers      | 100%
+Four correct answers      | 80%
+Three correct answers     | 60%
+Two correct answers       | 40%
+one  correct answer       | 20%
+No correct answer         | 0%
+No value entered          |NaN%
 ## Known Bugs
 There are no known Bugs
 ## Technologies Used
