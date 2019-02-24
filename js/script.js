@@ -16,7 +16,18 @@ $(document).ready(function check() {
   
       var total = (a + b + c + d + e);
       var percent = ((total / 25) * 100);
-      $("#correct").fadeToggle(" your score is:" + percent + "%");
-  
+      $("#correct").slideToggle(" your score is:" + percent + "%");
+    
+      
+      if (percent === 100 || 80) {
+        $("#correct").fadeToggle ("EXCELLENT! YOU ARE A JAVASCRIPT GURU");
+        }else if(percent === 60){
+        $("#correct").fadeToggle("FAIR YOU CAN DO BETTER");
+        } else if (percent === 40){
+        $("#correct").fadeToggle("Below Average Work Harder next time.");
+        } else{
+        $("#correct").fadeToggle("POOR! Did you study?");
+        };
+    };
     });
   });
