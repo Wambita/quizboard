@@ -28,5 +28,6 @@ $(document).ready(function check() {
     } else{
       $("#correct").text("You need to answer ALL the questions")
     };
+      $("#hidden").fadeToggle();
   });
 });
