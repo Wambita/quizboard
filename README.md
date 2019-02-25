@@ -41,5 +41,5 @@ There are no known Bugs
 contact this number if you have any issues: 0722846189
 email: wambitafana@gmail.com
 ### License
-*MIT.*
+* *MIT.*
 Copyright (c) 2019
