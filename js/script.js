@@ -17,22 +17,16 @@ $(document).ready(function check() {
     
     if (percent > 79) {
       $("#correct").text( " You scored " + percent + "%. " + "EXCELLENT! YOU ARE A JAVASCRIPT GURU");
-      $("#correct").fadeToggle();
     } else if (percent > 59 && percent < 79) {
       $("#correct").text(" You scored " + percent + "%. " + "FAIR YOU CAN DO BETTER");
-      $("#correct").fadeToggle();
     } else if (percent > 39 && percent < 59) {
       $("#correct").text(" You scored " + percent + "%. " + "Below Average Work Harder next time.");
-      $("#correct").fadeToggle();
     } else if(percent >0 && percent<20) {
       $("#correct").text(" You scored " + percent + "%. " + "POOR work! you need to retake this test");
-      $("#correct").fadeToggle();
     }else if(percent === 0){
       $("#correct").text("You scored "+ percent+ " %. " + " Did you study for the test? ");
-      $("#correct").fadeToggle();
     } else{
       $("#correct").text("You need to answer ALL the questions")
-      $("#correct").fadeToggle();
     };
   });
 });
