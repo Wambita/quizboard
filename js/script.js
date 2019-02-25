@@ -1,11 +1,11 @@
 $(document).ready(function check() {
-   var name=prompt ("Welcome to Javascript Quizboard. Please enter your name");
-   var consent=confirm ( "Hello "+ name + "Are you ready to take the test?");
-   if (consent === true){
-   alert("Here we go!");
-   } else{
-       alert("May be next time")
-   };
+  // var name=prompt ("Welcome to Javascript Quizboard. Please enter your name");
+   //var consent=confirm ( "Hello "+ name + "Are you ready to take the test?");
+   //if (consent === true){
+   //alert("Here we go!");
+   //} else{
+      // alert("May be next time")
+   //};
     $("form#quiz").submit(function(event) {
       event.preventDefault();
       var a = parseInt($("input:radio[name=choice1]:checked").val());
@@ -28,6 +28,5 @@ $(document).ready(function check() {
         } else{
         $("#correct").fadeToggle("POOR! Did you study?");
         };
-    };
     });
   });
