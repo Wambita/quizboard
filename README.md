@@ -20,15 +20,15 @@ In order for the program to run well and to give the correct output, the code ha
 2. For the answer to be correct the value of the label has to be five.
 Below is a table to describe this:
 
-Behavior                  |  Output Example
-------------------------  | ---------------
-Five correct answers      | 100%
-Four correct answers      | 80%
-Three correct answers     | 60%
-Two correct answers       | 40%
-one  correct answer       | 20%
-No correct answer         | 0%
-No value entered          |NaN%
+Behavior                |  Output Example
+------------------------| ---------------
+Five correct answers    | 100% "EXCELLENT! YOU ARE A JAVASCRIPT GURU"
+Four correct answers    | 80%  "EXCELLENT! YOU ARE A JAVASCRIPT GURU"
+Three correct answers   | 60%  "FAIR YOU CAN DO BETTER"
+Two correct answers     | 40%  "Below Average Work Harder next time."
+one  correct answer     | 20%  "POOR work! you need to retake this test"
+No correct answer       | 0%   " Did you study for the test? "
+enter null value        |NaN%  "You need to answer ALL the questions"
 ## Known Bugs
 There are no known Bugs
 ## Technologies Used
