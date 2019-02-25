@@ -9,6 +9,7 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/scripts.js"></script>
+  <!--JQuery file-->
   <script src="js/script.js"></script>
 </head>
 
@@ -16,9 +17,14 @@
   <div class="container">
     <div class="jumbotron">
       <h1>JavaScript Quizboard</h1>
+      <img src="images/test.png" width="200" height="200" alt="test">
     </div>
     <div class="well">
+      <h2>JavaScript test</h2>
       <form id="quiz" name="quiz">
+        Name:<input type="text" id="name" name="firstname" value="">
+        Date of test : <input type="date" name="date" value="">
+        Email:<input type="email" id="email" name="email" value="">
         <ol>
           <li id="Question 1">What method is used to change strings to numbers?<br>
             <label for="quiz1"><input id="mc" type="radio" name="choice1" value="5">A) parseInt() </label><br>
@@ -49,8 +55,10 @@
         <input type="reset" value="Reset">
       </form>
     </div>
-     <div class="panel-footer">
-      <h2 id="correct">Total score</h2>  
+    <div class="panel-footer">
+      <h2>Score board</h2>
+      <h2 id="correct">Total score</h2>
+      <img src="images/wal.jpg" width="200" height="200" alt="wal">
     </div>
   </div>
 </body>
